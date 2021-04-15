@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><libraryInfos>
+<libraryInfo home="/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home" version="1.8.0_222">
+<bootpath>
+<entry path="/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/lib/compressedrefs/jclSC180/vm.jar"/>
+<entry path="/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/lib/se-service.jar"/>
+<entry path="/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/lib/rt.jar"/>
+<entry path="/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/lib/resources.jar"/>
+<entry path="/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/lib/jsse.jar"/>
+<entry path="/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/lib/charsets.jar"/>
+<entry path="/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/lib/jce.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/Applications/IBM/DS4.1.3/jdk/Contents/Home" version="1.8.0_251">
+<bootpath>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/endorsed/ibmjcefw.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/endorsed/ibmsaslfw.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/endorsed/ibmcertpathprovider.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/endorsed/ibmcertpathfw.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/endorsed/ibmjsseprovider2.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/endorsed/xml.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/endorsed/ibmorbapi.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/endorsed/ibmorb.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/endorsed/ibmjssefw.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/endorsed/ibmsecurity.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/endorsed/ibmpkcs.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/endorsed/ibmcfw.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/endorsed/ibmjgssfw.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/endorsed/ibmjgssprovider.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/endorsed/ibmext.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/resources.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/rt.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/sunrsasign.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/jsse.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/jce.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/charsets.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/jfr.jar"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/Users/Jack.Billings@ibm.com/Library/Java/Extensions"/>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/ext"/>
+<entry path="/Library/Java/Extensions"/>
+<entry path="/Network/Library/Java/Extensions"/>
+<entry path="/System/Library/Java/Extensions"/>
+<entry path="/usr/lib/java"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/Applications/IBM/DS4.1.3/jdk/Contents/Home/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home" version="1.8.0_261">
+<bootpath>
+<entry path="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/resources.jar"/>
+<entry path="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/rt.jar"/>
+<entry path="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/sunrsasign.jar"/>
+<entry path="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jsse.jar"/>
+<entry path="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jce.jar"/>
+<entry path="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/charsets.jar"/>
+<entry path="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jfr.jar"/>
+<entry path="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/Users/Jack.Billings@ibm.com/Library/Java/Extensions"/>
+<entry path="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext"/>
+<entry path="/Library/Java/Extensions"/>
+<entry path="/Network/Library/Java/Extensions"/>
+<entry path="/System/Library/Java/Extensions"/>
+<entry path="/usr/lib/java"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

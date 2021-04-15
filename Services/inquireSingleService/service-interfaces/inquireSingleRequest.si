@@ -54,7 +54,7 @@
                         </marshaller>
                         <applicationDatatype datatype="DECIMAL" precision="4" scale="0"/>
                     </field>
-                    <field name="FILL_1" originalName="FILL_1" included="N" path="DFH0XCP4.inquireSingle.FILL_1">
+                    <field name="FILL_1" originalName="FILL_1" included="Y" path="DFH0XCP4.inquireSingle.FILL_1">
                         <startPos>96</startPos>
                         <bytes>3</bytes>
                         <maxBytes>3</maxBytes>

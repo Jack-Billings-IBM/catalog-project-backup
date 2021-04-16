@@ -60,6 +60,29 @@
           }
         }
       }
+    },
+    "/orders" : {
+      "post" : {
+        "tags" : [ "catalogapi" ],
+        "operationId" : "postInquireSingleService",
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "postInquireSingleService_request",
+          "description" : "request body",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/postInquireSingleService_request"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK",
+            "schema" : {
+              "$ref" : "#/definitions/postInquireSingleService_response_200"
+            }
+          }
+        }
+      }
     }
   },
   "definitions" : {
@@ -141,6 +164,78 @@
       }
     },
     "getInquireCatalogService1_response_200" : {
+      "type" : "object",
+      "properties" : {
+        "DFH0XCP4" : {
+          "type" : "object",
+          "properties" : {
+            "CA_SINGLE_RETURN_CODE" : {
+              "type" : "integer",
+              "minimum" : 0,
+              "maximum" : 99
+            },
+            "CA_SINGLE_RESPONSE_MESSAGE" : {
+              "type" : "string",
+              "maxLength" : 79
+            },
+            "CA_INQUIRE_SINGLE" : {
+              "type" : "object",
+              "properties" : {
+                "CA_SINGLE_ITEM" : {
+                  "type" : "object",
+                  "properties" : {
+                    "CA_SNGL_ITEM_REF" : {
+                      "type" : "integer",
+                      "minimum" : 0,
+                      "maximum" : 9999
+                    },
+                    "CA_SNGL_DESCRIPTION" : {
+                      "type" : "string",
+                      "maxLength" : 40
+                    },
+                    "CA_SNGL_DEPARTMENT" : {
+                      "type" : "integer",
+                      "minimum" : 0,
+                      "maximum" : 999
+                    },
+                    "CA_SNGL_COST" : {
+                      "type" : "string",
+                      "maxLength" : 6
+                    },
+                    "IN_SNGL_STOCK" : {
+                      "type" : "integer",
+                      "minimum" : 0,
+                      "maximum" : 9999
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "postInquireSingleService_request" : {
+      "type" : "object",
+      "properties" : {
+        "DFH0XCP4" : {
+          "type" : "object",
+          "properties" : {
+            "inquireSingle" : {
+              "type" : "object",
+              "properties" : {
+                "itemID" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 9999
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "postInquireSingleService_response_200" : {
       "type" : "object",
       "properties" : {
         "DFH0XCP4" : {

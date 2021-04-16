@@ -19,7 +19,7 @@
                         <field included="Y" fieldName="inquireSingle">
                             <field included="Y" fieldName="itemID" isHex="false"/>
                             <field included="Y" fieldName="FILL_0"/>
-                            <field included="Y" fieldName="FILL_1"/>
+                            <field included="N" fieldName="FILL_1"/>
                             <field included="N" fieldName="CA_SINGLE_ITEM">
 <field included="N" fieldName="CA_SNGL_ITEM_REF"/>
 <field included="N" fieldName="CA_SNGL_DESCRIPTION"/>

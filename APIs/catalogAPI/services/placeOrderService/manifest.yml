@@ -41,7 +41,11 @@ providerProperties:
   value: "DFH0XCMN"
   type: "STRING"
 - propertyName: "connectionRef"
+<<<<<<< HEAD
   value: "cicsConnTest"
+=======
+  value: "cicsConn"
+>>>>>>> branch 'main' of https://github.com/Jack-Billings-IBM/catalog-project.git
   type: "STRING"
 - propertyName: "dataXformType"
   value: "WALKER_VISITOR"

@@ -41,7 +41,7 @@ providerProperties:
   value: "DFH0XCMN"
   type: "STRING"
 - propertyName: "connectionRef"
-  value: "cicsConn"
+  value: "cicsConnTest"
   type: "STRING"
 - propertyName: "dataXformType"
   value: "WALKER_VISITOR"

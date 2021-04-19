@@ -1,13 +1,13 @@
 ---
 Manifest-Version: 1.0
-name: "inquireSingleService"
+name: "placeOrderService"
 provider: "CICS-1.0"
 factoryPid: "cics"
 requestSchema:
-  value: "file:///schemas/inquireSingleServiceRequest.json"
+  value: "file:///schemas/placeOrderServiceRequest.json"
   type: "JSONSchema"
 responseSchema:
-  value: "file:///schemas/inquireSingleServiceResponse.json"
+  value: "file:///schemas/placeOrderServiceResponse.json"
   type: "JSONSchema"
 providerProperties:
 - propertyName: "omitOutputFieldsByValueByte"
@@ -47,7 +47,7 @@ providerProperties:
   value: "WALKER_VISITOR"
   type: "STRING"
 - propertyName: "wvServiceFile"
-  value: "files/service/inquireSingleService.xml"
+  value: "files/service/placeOrderService.xml"
   type: "FILE"
 - propertyName: "wvRequestInterfaceFile"
   value: "files/interfaces/inquireSingleRequest.si"

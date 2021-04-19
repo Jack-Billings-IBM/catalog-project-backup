@@ -206,6 +206,11 @@
                       "type" : "integer",
                       "minimum" : 0,
                       "maximum" : 9999
+                    },
+                    "ON_SNGL_ORDER" : {
+                      "type" : "integer",
+                      "minimum" : 0,
+                      "maximum" : 999
                     }
                   }
                 }

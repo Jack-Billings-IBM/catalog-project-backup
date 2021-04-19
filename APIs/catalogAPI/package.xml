@@ -8,7 +8,7 @@
             <method type="GET" zosConnectServiceRef="inquireSingleService" httpXformFile="api/item/{itemID}/GET/mapping.xml" operationId="getInquireCatalogService1"/>
         </path>
         <path relativePath="/orders">
-            <method type="POST" zosConnectServiceRef="inquireSingleService" httpXformFile="api/orders/POST/mapping.xml" operationId="postInquireSingleService"/>
+            <method type="POST" zosConnectServiceRef="placeOrderService" httpXformFile="api/orders/POST/mapping.xml" operationId="postInquireSingleService"/>
         </path>
         <apiDoc docType="SWAGGER">api-docs/swagger.json</apiDoc>
     </apiSpec>
